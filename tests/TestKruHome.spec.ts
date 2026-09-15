@@ -7,7 +7,7 @@ test('validate home page text on Testkaru',{tag:'@SmokeTest'},async ({page})=>{
 
 })
 
-test('vaildate home page content',{tag:'@smoketest'},async({page})=>{
+test('vaildate home page content',{tag:'@SmokeTest'},async({page})=>{
       await page.goto('https://testkru.com/');
       await expect(page.locator('#content')).toBeVisible();
 })
